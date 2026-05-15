@@ -112,7 +112,7 @@ export default function App() {
       <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-[#2b1609]/80 backdrop-blur-xl">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
           <a href="#home" className="text-2xl font-black text-[#ffd08a]">
-            Royal Studio
+            Studio24
           </a>
 
           <nav className="hidden items-center gap-7 text-sm font-semibold text-white lg:flex">
