@@ -3,7 +3,13 @@ import React from "react";
 const whatsappNumber = "+12267934465"; // change your number here
 
 const openWhatsApp = () => {
-  window.open(`https://wa.me/${whatsappNumber}`, "_blank");
+  const message = `Hello Studio24, I want Id .`;
+  const encodedMessage = encodeURIComponent(message);
+
+  window.open(
+    `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
+    "_blank",
+  );
 };
 
 const services = [
